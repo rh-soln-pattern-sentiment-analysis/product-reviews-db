@@ -18,9 +18,9 @@ SET default_table_access_method = heap;
 CREATE TABLE public.product_reviews (
     review_id bigint NOT NULL,
     product_id character varying(30) NOT NULL,
-    user_id numeric(8,2),
+    user_id character varying(30) NOT NULL,
     user_name character varying(255) NOT NULL,
-    rating numeric(8,0),
+    rating INTEGER,
     review_date TIMESTAMP without time zone NOT NULL,
     review_text TEXT
 

@@ -8,4 +8,4 @@ POSTGRESQL_DATABASE="reviews"
 
 POSTGRESQL_PASSWORD="globex"
 
-docker run -e POSTGRESQL_USER=globex -e  POSTGRESQL_DATABASE=reviewsdb -e POSTGRESQL_PASSWORD=globex  quay.io/globex-sentiment-analysis/product-reviews-db:latest 
+docker run -e POSTGRESQL_USER=globex -e  POSTGRESQL_DATABASE=reviews -e POSTGRESQL_PASSWORD=globex  quay.io/globex-sentiment-analysis/product-reviews-db:latest 
