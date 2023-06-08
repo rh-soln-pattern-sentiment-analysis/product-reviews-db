@@ -1,6 +1,7 @@
 
 
 docker build -t quay.io/globex-sentiment-analysis/product-reviews-db:latest .
+
 docker push quay.io/globex-sentiment-analysis/product-reviews-db:latest 
 
 POSTGRESQL_USER="globex"
